@@ -13,7 +13,7 @@ function deleteFromObjectByKey(recipes, typesOfRecipes){
 }
 
 function destructivelyUpdateObjectWithKeyAndValue (recipes, typesOfRecipes, cuban){
-  recipes [typesOfRecipes] = cuban
+  recipes [typesOfRecipes] = cuban;
   return recipes;
 }
 
