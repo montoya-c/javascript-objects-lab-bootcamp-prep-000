@@ -19,6 +19,7 @@ function destructivelyUpdateObjectWithKeyAndValue (recipes, typesOfRecipes, cuba
 
 function destructivelyDeleteFromObjectByKey (recipes, newKey){
   var newRecipes = Object.assign ({},recipes);
+  newRecipes[newKey]=newValue;
  return delete newRecipes.newKey;
 }
 
