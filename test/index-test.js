@@ -29,7 +29,7 @@ describe('Objects', function() {
       var obj = { prop: 1 }
 
       expect(destructivelyUpdateObjectWithKeyAndValue(obj, 'prop2', 2)).toMatch({
-        prop: 1,
+        prop: 
         prop2: 2
       })
 
